@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1200px){
+    #main-intro .first,#main-intro .second{
+        width: 292px;
+        height: 355px;
+    }
+    #navbar .navbar{
+        display: none;
+    }
+    .nav-icon a:first-child,.nav-icon a:nth-child(3){
+        display: none;
+    }
+    .nav-logo i{
+        display: block;
+    }
+    
+}
+
+@media only screen and (max-width: 992px){
+    #main-intro .first,#main-intro .second{
+        width: 218px;
+        height: 265px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #main-intro .first,#main-intro .second{
+        width: 83vw;
+        height: 100vw;
+    }
+    #main-intro>.container>.row{
+        justify-content: center;
+    }
+    span.up-sign{
+        right: 10%;
+    }
+    .vendy-footer-text {
+        width: 71%;
+    }    
+}
